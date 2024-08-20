@@ -1,47 +1,32 @@
-# factorial-
- ¿que es la funcion factorial?
+ # ¿que es la funcion factorial?
 
- Una función es un bloque de código que realiza alguna operación. Una función puede definir opcionalmente parámetros de entrada que permiten a los llamadores pasar argumentos a la función. Una función también puede devolver un valor como salida.
+ La función factorial es una fórmula matemática representada por el signo de exclamación “!”. En la fórmula Factorial se deben multiplicar todos los números enteros y positivos que hay entre el número que aparece en la fórmula y el número 1.
 
- # Ejemplos de fórmulas factoriales
+ # ejemplo:
 
-1! = 1 * 1 = 1
-3! = 1 * 2 * 3 = 6
-10! = 1 * 2 * 3 … 8 * 9 * 10 = 3.628.800
+ 6! = 1x2x3x4x5x6 = 720
 
-Qué pasa con el 0 factorial, ¿cómo calcularlo? Si volvemos a la definición de función factorial podemos ver que no tiene sentido aplicarla en el caso del “0”. No existen números positivos anteriores al 0 por lo que 0 x 0 = 0.
+ en este ejemlo el factorial es 6
 
-No obstante, se ha acordado que en el caso de 0 factorial el resultado será igual a 1:
+´´´
+ fun main() {
 
-0! = 0 x 0 = 1
+// Número fijo para calcular el factorial
 
-# En Kotlin, puedes implementar la función factorial de manera similar a otros lenguajes, utilizando recursión o iteración. Aquí te muestro ambos enfoques en Kotlin:
+val numero - 6
 
-fun factorial(n: Int): Long {
-    return if (n == 0) {
-        1
-    } else {
-        n * factorial(n - 1)
-    }
+// Calculamos el factorial usando la función recursiva val resultado factorial(mmero)
+
+// leprimisos el resultadu println("El factorial de Snumero es $resultado")
+}
+// Función recursiva para calcular el factorial
+
+fun factorial(n: Int): Int (
+
+return if (n - 1) 1 elsen factorial(n-1)
 }
 
-fun main() {
-    println(factorial(5))  // Salida: 120
+# estructura de la funcion funcional:
+
+fun factorial(: Int): Ist ( return if (n - 1) 1 eisen factorial(1)
 }
-
-
-
-fun factorial(n: Int): Long {
-    var result = 1L
-    for (i in 1..n) {
-        result *= i
-    }
-    return result
-}
-
-fun main() {
-    println(factorial(5))  // Salida: 120
-}
-
-
- 
