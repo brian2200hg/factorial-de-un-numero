@@ -30,3 +30,9 @@ return if (n - 1) 1 elsen factorial(n-1)
 
 fun factorial(: Int): Ist ( return if (n - 1) 1 eisen factorial(1)
 }
+
+# Definición:
+
+    Entrada: Una función funcional recibe una o más funciones como argumentos o devuelve una función como resultado.
+    Operación: La función opera utilizando las funciones que recibe como argumentos o las crea y las retorna.
+    Salida: El resultado es generalmente una nueva función o un valor computado basado en la combinación de funciones.
