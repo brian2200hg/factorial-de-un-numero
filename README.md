@@ -1,5 +1,7 @@
  # ¿que es la funcion factorial?
 
+![sddefault](https://github.com/user-attachments/assets/fd80363d-8154-487a-ab8f-6bdaeddf174b)
+
  La función factorial es una fórmula matemática representada por el signo de exclamación “!”. En la fórmula Factorial se deben multiplicar todos los números enteros y positivos que hay entre el número que aparece en la fórmula y el número 1.
 
  # ejemplo:
