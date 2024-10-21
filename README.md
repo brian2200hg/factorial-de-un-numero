@@ -38,3 +38,22 @@ fun factorial(: Int): Ist ( return if (n - 1) 1 eisen factorial(1)
     Entrada: Una función funcional recibe una o más funciones como argumentos o devuelve una función como resultado.
     Operación: La función opera utilizando las funciones que recibe como argumentos o las crea y las retorna.
     Salida: El resultado es generalmente una nueva función o un valor computado basado en la combinación de funciones.
+
+
+
+
+    fun factorial(n: Int): Long {
+    return if (n == 0 || n == 1) {
+        1
+    } else {
+        n * factorial(n - 1)
+    }
+}
+
+fun main() {
+    for (i in 1..5) {
+        val resultado = factorial(i)
+        println("El factorial de $i es: $resultado")
+    }
+}
+
