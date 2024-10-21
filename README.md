@@ -4,7 +4,7 @@
 
  La función factorial es una fórmula matemática representada por el signo de exclamación “!”. En la fórmula Factorial se deben multiplicar todos los números enteros y positivos que hay entre el número que aparece en la fórmula y el número 1.
 
- # ejemplo:
+ # ejemplo -
 
  6! = 1x2x3x4x5x6 = 720
 
